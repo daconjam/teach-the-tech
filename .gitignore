@@ -1,0 +1,80 @@
+# ==========================================
+# Operating System Artifacts
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Python Runtime & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Virtual Environments (Local Interpretation)
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+导env/
+.env/
+
+# ==========================================
+# Security & Secret Management (CRITICAL)
+# ==========================================
+.env
+.env.*
+secret*.json
+config.json
+credentials.ini
+*.pem
+*.key
+
+# ==========================================
+# Testing, Telemetry, and Linting Coverage
+# ==========================================
+.pytest_cache/
+.cache/
+.flake8
+.bandit/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+xunit.xml
+*.log
+
+# ==========================================
+# Jupyter Notebook Presentation Layer
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
